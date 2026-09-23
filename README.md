@@ -7,9 +7,9 @@ ICASSP 投稿配套的试听 demo 页面。每行一个样本，包含 Ref（参
 ```
 icassp-demo/
 ├── index.html        # demo 页面（GitHub Pages 入口）
-└── audio/            # 15 个 wav 文件（5 个样本 × 3 列）
-    ├── 14ref.wav / 14index.wav / 14duretts.wav
-    └── ...
+└── audio/            # 38 个 wav 文件
+    ├── 1ref.wav / 1voxcpm.wav / 1index.wav / 1duretts.wav   # 跨语种配音：样本 1-5
+    └── 11_prompt.wav / 11_style.wav / 11_out.wav            # 双参考：样本 11-16
 ```
 
 ## 部署到 GitHub Pages
