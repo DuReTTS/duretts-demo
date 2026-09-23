@@ -54,8 +54,6 @@
     font-size: 14px;
     font-weight: 600;
   }
-  td.sample-id { font-weight: 600; white-space: nowrap; width: 90px; }
-
   audio {
     width: 100%;
     min-width: 180px;
@@ -105,7 +103,6 @@
   <table>
     <thead>
       <tr>
-        <th>Sample</th>
         <th>Ref</th>
         <th>IndexTTS2</th>
         <th>DuReTTS</th>
@@ -113,31 +110,26 @@
     </thead>
     <tbody>
       <tr>
-        <td class="sample-id">#14</td>
         <td><audio controls preload="none" src="audio/14ref.wav"></audio></td>
         <td><audio controls preload="none" src="audio/14index.wav"></audio></td>
         <td><audio controls preload="none" src="audio/14duretts.wav"></audio></td>
       </tr>
       <tr>
-        <td class="sample-id">#15</td>
         <td><audio controls preload="none" src="audio/15ref.wav"></audio></td>
         <td><audio controls preload="none" src="audio/15index.wav"></audio></td>
         <td><audio controls preload="none" src="audio/15duretts.wav"></audio></td>
       </tr>
       <tr>
-        <td class="sample-id">#17</td>
         <td><audio controls preload="none" src="audio/17ref.wav"></audio></td>
         <td><audio controls preload="none" src="audio/17index.wav"></audio></td>
         <td><audio controls preload="none" src="audio/17duretts.wav"></audio></td>
       </tr>
       <tr>
-        <td class="sample-id">#18</td>
         <td><audio controls preload="none" src="audio/18ref.wav"></audio></td>
         <td><audio controls preload="none" src="audio/18index.wav"></audio></td>
         <td><audio controls preload="none" src="audio/18duretts.wav"></audio></td>
       </tr>
       <tr>
-        <td class="sample-id">#20</td>
         <td><audio controls preload="none" src="audio/20ref.wav"></audio></td>
         <td><audio controls preload="none" src="audio/20index.wav"></audio></td>
         <td><audio controls preload="none" src="audio/20duretts.wav"></audio></td>
@@ -145,7 +137,7 @@
     </tbody>
   </table>
 
-  <!-- 如需展示每条样本的文本，可在 <td class="sample-id"> 后插入一列：
+  <!-- 如需展示每条样本的文本，可在每行第一个 <td> 前插入一列：
        <td style="text-align:left">这里写文本</td>
        并在 thead 中对应增加 <th>Text</th> -->
 
