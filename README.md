@@ -7,9 +7,11 @@ ICASSP 投稿配套的试听 demo 页面。每行一个样本，包含 Ref（参
 ```
 icassp-demo/
 ├── index.html        # demo 页面（GitHub Pages 入口）
-└── audio/            # 38 个 wav 文件
-    ├── 1ref.wav / 1voxcpm.wav / 1index.wav / 1duretts.wav   # 跨语种配音：样本 1-5
-    └── 11_prompt.wav / 11_style.wav / 11_out.wav            # 双参考：样本 11-16
+└── audio/            # 96 个 wav 文件
+    ├── dubbing_cmn2eng/    # 跨语种配音 中→英：{n}_Prompt/VoxCPM2/IndexTTS2/DuReTTS.wav
+    ├── dubbing_eng2cmn/    # 跨语种配音 英→中：同上
+    ├── dualref_cmn/        # 双参考 中文：{n}_SPK_Prompt/Style_Prompt/IndexTTS2/DuReTTS.wav
+    └── dualref_eng/        # 双参考 英文：同上
 ```
 
 ## 部署到 GitHub Pages
